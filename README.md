@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="site" content="zahra">
-    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="keywords" content="HTML, CSS">
     <meta name="zahra" content="zahra_amjad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>new site</title>
@@ -11,13 +11,25 @@
 
 div.hed{
 
-    max-width: 1080;
-    height: 648px;
-    height: 648px;
-    display: block;
+    max-width: 1080%;
+    height: 600px;
+    width: 600px;
+    display:block;
     background-color: dodgerblue;
    
         }
+a.classaval{
+    margin-right: 19px;
+    margin-top:20px;
+    margin-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+
+
+}
         ul{
             list-style-type: none;
         }
@@ -126,6 +138,9 @@ div.hed{
             width: 100%!important;
 
         }
+div.main{
+    display: block;
+}
 
 
  
@@ -134,7 +149,7 @@ div.hed{
     <body>
         <nav class="bar">
             <div class="hed">
-                <a href="www.zahra.com" target="_top">zahra.</a>
+                <a class="classaval" href="zahra.com" target="_top">zahra.</a>
 
             <div class="text">
                 <ul>
@@ -179,7 +194,7 @@ div.hed{
             </div>
         </nav>
             <min>
-                <div>
+                <div class="min">
                     <div>
                        <div>
                           <div>
