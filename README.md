@@ -116,34 +116,171 @@ a.classaval{
             padding-right: 15px;
                 position: relative;
         }
-        div.pic1{
+        
+        nav.bar{
+            position: relative;
+            box-sizing:border-box;
+            display: block;
+            line-height: 24px;
+            padding-bottom: 144px;
+            max-width:100%;
 
-            padding-top: 3rem!important;
+            
+
 
         }
-        div.pic{
+div.main{
+    display: block;
+    background-color: white;
+    padding-bottom: 6rem;
+    padding-top: 6erm;
+    
+    
+}
+
+        min.min1{
+            display: block;
+        }
+        div.min2{
+            max-width: 960px;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        div.main3{
+            display:flex;
+            flex-wrap: wrap;
+            margin-left: -15px;
+            margin-right: -15px;
+                
+        }
+        div.min4{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 83.33333%;
+            position: relative;
+            width: 100%;
+            min-width: 1px;
+            padding-right: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+
+        }
+        div.min5{
+                display: flex;
+                flex-wrap: wrap;
+            margin-right: -15px;
+                margin-left: -15px;
+            box-sizing: border-box
+        }
+        div.min6{
+               margin-left: auto;
+               flex: 0 0 33.33333%;
+                max-width: 33.33333%;
+                position: relative;
+                width: 100%;
+                min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px;
+            display: block;
+             min-width: 1rem;
+            box-sizing: border-box;
+            font-family: Lato,sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343a40;
+    text-align: left;
+        }
+        div.min7{
+                margin-right: auto;
+                flex:0 0 50%;
+                max-width:50%;
+                position: relative;
+                width: 100%;
+                min-width: 768px;
+                padding-right: 15px;
+                padding-left: 15px;
+                display: block;
+                box-sizing: border-box;
+        }
+        p.min8{
+                color: #343a40;
+                font-size: 1.25rem;
+                font-weight: 400;
+                margin-top: 0;
+                margin-bottom: 1rem;
+                box-sizing: border-box;
+                display: block;
+             min-width: 1rem;
+               
+
+}
+        div.min9{
+            
+            padding-top: 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            box-sizing: border-box;
+        }
+        div.min10{
+            min-width: 768px;
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%;
             position: relative;
             width: 100%;
             min-height: 1px;
             padding-right: 15px;
             padding-left: 15px;
+            box-sizing: border-box;
+            font-family: Lato,sans-serif;
+           font-size: 1rem;
+           font-weight: 400;
+           line-height: 1.5;
+           color: #343a40;
+           text-align: left;
         }
-        nav.bar{
-            position: absolute;
-            left: auto;
-            top: auto;
-            bottom: auto;
-            right: auto;
-            z-index: 3;
-            width: 100%!important;
-
+        a.min11{
+               border-color: #dee2e6;
+                border-bottom: 0;
+                text-decoration: none;
+                cursor: pointer;
+                background-color: transparent;
         }
-div.main{
-    display: block;
+        img.min12{
+            border-radius: .35rem;
+            border: 1px solid rgba(0,0,0,.1);
+            box-shadow:0.35rem 0.35rem 0 0 rgba(0,0,0,.1);
+            transition: transform .2s; box-shadow .2s ; -webkit-transform .2s; -webkit-box-shadow .2s;
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            box-sizing: border-box;
+            cursor: pointer;       
 }
-
-
- 
+        h5.min13{
+                margin-top: 1.5rem;
+                font-size: 1.25rem;
+                margin-bottom: .5rem;
+                font-family: inherit;
+                font-weight: 700;
+                line-height: 1.2;
+                color: inherit;
+                box-sizing: border-box;
+                text-align: left;
+                display: block;
+            
+            
+        }
+        a.min14{
+            
+        }
+    
     </style>
     </head>
     <body>
@@ -193,34 +330,37 @@ div.main{
              </div>
             </div>
         </nav>
-            <min>
+            <min class="min1">
                 <div class="min">
-                    <div>
-                       <div>
-                          <div>
-                              <div>
+                    <div class="main2">
+                       <div class="min3">
+                          <div class="main4">
+                              <div class="main5">
+                                  <div class="min6">
                               <h2>Discover our landing, app & blog pages</h2>
-                              </div>
-                              <div>
-                                  <p>Robust includes various demo pages for building your custom app, blog or landing page. All code is handwritten, all our components are optimized for desktop, tablet and mobile.</p>
+                                  </div>
+                              <div class="min7">
+                                  <p class="min8">Robust includes various demo pages for building your custom app, blog or landing page. All code is handwritten, all our components are optimized for desktop, tablet and mobile.</p>
                                   </div>
                                     </div>
-                       </div>
-                    </div>
-                <div class="pic1">
-                    <div class="pic">
-                        <div>
-                    <img src="landing-2.png" alt="Landing">
-
-                    <h2>Landing</h2>
+                                      </div>
+                                       </div>
+                        <div class="min9">
+                    <div class="min10">
+        <div>
+            <a href="https://robust.bootlab.io/pages-landing.html" class="min11">
+               <img src="landing-2.png" alt="Landing" class="min12">
+                </a>
+                    <h5 class="min13">Landing</h5>
                     <p>
                     Make your app look outstanding between the crowd using our wide variety of page components.
                     </p>
                     <p>
-                    Explore Pages
+                    <a href="pages-landing.html" class="min14">Explore Pages ›</a>
                     </p>
-                    </div>
-                    </div>
+                        </div>
+                            </div>
+                       </div>
                     <div>
                     <div>
                     <img src="social-2.png" alt="landing">
